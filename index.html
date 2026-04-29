@@ -358,7 +358,7 @@ a{color:inherit;text-decoration:none}
 <!-- NAV -->
 <nav class="nav">
   <button class="menu-btn" id="menuToggle"><span></span><span></span><span></span></button>
-  <a class="nav-logo" id="navLogo"><img src="assets/images/logo-nocta.png" alt="NOCTA"></a>
+  <a class="nav-logo" id="navLogo"><img src="https://www.nocta.com/cdn/shop/files/Logo_1.png" alt="NOCTA"></a>
   <ul class="nav-links" id="navLinks">
     <li><a data-nav="new">New Arrivals</a></li>
     <li><a data-nav="best-sellers">Best Sellers</a></li>
@@ -380,7 +380,7 @@ a{color:inherit;text-decoration:none}
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-img"><img src="assets/images/nocta-banner.webp" alt="NOCTA Collection"></div>
+  <div class="hero-img"><img src="https://cdn.shopify.com/s/files/1/0509/0079/5541/files/ONBODY_HO25CARDINALSTOCK23_af6c9d21-8281-48fa-878c-748553d8f6c7.jpg" alt="NOCTA Collection"></div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <h1>Move Different</h1>
@@ -518,7 +518,7 @@ a{color:inherit;text-decoration:none}
 <footer class="footer">
   <div class="footer-grid">
     <div>
-      <img src="assets/images/logo-nocta.png" alt="NOCTA" style="height:40px;width:auto;margin-bottom:12px">
+      <img src="https://www.nocta.com/cdn/shop/files/Logo_1.png" alt="NOCTA" style="height:40px;width:auto;margin-bottom:12px">
       <p style="font-size:13px;color:var(--t2);line-height:1.7">Move Different. Premium streetwear designed for those who push boundaries.</p>
       <a href="mailto:contact@shopnocta.com" style="font-size:12px;color:var(--t2);text-decoration:underline;display:inline-block;margin-top:8px">contact@shopnocta.com</a>
       <div class="socials">
@@ -727,12 +727,12 @@ function openPDP(handle){
     +'</div>';
 
   html+='<div class="payment-row">'
-    +'<img src="assets/payments/visa.svg" alt="Visa">'
-    +'<img src="assets/payments/mastercard.svg" alt="Mastercard">'
-    +'<img src="assets/payments/amex.svg" alt="Amex">'
-    +'<img src="assets/payments/applepay.svg" alt="Apple Pay">'
-    +'<img src="assets/payments/googlepay.svg" alt="Google Pay">'
-    +'<img src="assets/payments/klarna.svg" alt="Klarna">'
+    +'<img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/visa.svg" alt="Visa">'
+    +'<img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/mastercard.svg" alt="Mastercard">'
+    +'<img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/amex.svg" alt="Amex">'
+    +'<img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/applepay.svg" alt="Apple Pay">'
+    +'<img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/googlepay.svg" alt="Google Pay">'
+    +'<img src="https://cdn.simpleicons.org/klarna" alt="Klarna">'
     +'</div>';
 
   html+='</div></div>';
@@ -890,7 +890,7 @@ function renderCart(){
   html+='<div class="cf-total"><span>Total</span><span>$'+total.toFixed(2)+'</span></div>';
   html+='<button class="checkout-btn" onclick="showToast(\u0027Checkout coming soon\u0027)">Checkout</button>';
   html+='<button class="continue-btn" onclick="closeCart()">Continue shopping</button>';
-  html+='<div style="text-align:center;margin-top:12px"><span style="font-size:10px;color:var(--t3)">We accept</span><div class="payment-row" style="margin-top:6px"><img src="assets/payments/visa.svg" alt="Visa"><img src="assets/payments/mastercard.svg" alt="MC"><img src="assets/payments/amex.svg" alt="Amex"><img src="assets/payments/applepay.svg" alt="Apple Pay"><img src="assets/payments/googlepay.svg" alt="Google Pay"><img src="assets/payments/klarna.svg" alt="Klarna"></div></div>';
+  html+='<div style="text-align:center;margin-top:12px"><span style="font-size:10px;color:var(--t3)">We accept</span><div class="payment-row" style="margin-top:6px"><img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/visa.svg" alt="Visa"><img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/mastercard.svg" alt="MC"><img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/amex.svg" alt="Amex"><img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/applepay.svg" alt="Apple Pay"><img src="https://cdn.jsdelivr.net/gh/aaronfagan/svg-credit-card-payment-icons@main/flat/googlepay.svg" alt="Google Pay"><img src="https://cdn.simpleicons.org/klarna" alt="Klarna"></div></div>';
   html+='</div>';
 
   $("cartContent").innerHTML=html;
